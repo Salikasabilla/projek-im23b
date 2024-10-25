@@ -1,0 +1,207 @@
+.navbar {
+  background-color: #ffffff;
+}
+
+.home {
+  padding-top: 6rem;
+  background-color: #f2d0e2;
+  margin: 0%;
+}
+
+.gallery {
+  background-color: #bc2877;
+}
+
+.profile {
+  background-color: #f2d0e2;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px #00000042;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: transform 1s;
+}
+
+.gallery img :hover {
+  filter: grayscale(1);
+  transform: scale(1.05);
+}
+
+.kontak img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.brand-area {
+  background-color: #dcaac5;
+  padding: 1rem 20 rem;
+}
+
+.col-lg-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.single-brand {
+  border: 1px solid var(grey);
+  text-align: center;
+  padding: 1.8rem 0rem;
+  margin: 5px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform .4s ease ;
+}
+
+.single-brand img {
+  width: 90px;
+  height: 90px;
+}
+
+.single-brand :hover {
+  box-shadow: var(black);
+  transform: scale(1.1);
+}
+
+.single-brand img :hover {
+  filter: brightness(0.15);
+}
+
+.experience-area {
+  padding-left: 1rem;
+  background: #dc9abd no-repeat 45px 20px;
+  width: 15rem;
+  height: 15rem;
+  margin-left: 50px;
+}
+
+.experience-area span{
+  display: block;
+}
+
+.years-area {
+  color: #bc2877;
+  padding: 2rem 0;
+  width: 25rem;
+  height: 10rem;
+  margin-top: 20px;
+  padding-left: 8rem;
+  position: relative;
+  border-radius: 5px;
+}
+
+.d-flex img {
+  height: 60px;
+  width: 100px;
+}
+
+.services-area {
+  background-color: #bc2877;
+  color: #f2d0e2;
+}
+
+.servicess {
+  background-color: #f2d0e2;
+  color: #bc2877;
+}
+
+.bawah {
+  background-color: #bc2877;
+}
+
+.services-img img {
+  height: 50px;
+  width: 50px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-card img{
+  height: 150px;
+  width: 250px;
+}
+
+.card-body .card-text {
+  color: #ffffff;
+}
+
+.calendar {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.day {
+  border: 1px solid #ddd;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.day:hover {
+  background-color: #f8f9fa;
+}
+
+.national-holiday {
+  background-color: #ffcccb; /* Warna untuk tanggal nasional */
+  font-weight: bold;
+}
+
+.header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.feedback {
+  background-color: #f2d0e2;
+}
+
+.heroo {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.feedback-form {
+  margin-top: 30px;
+}
+
+.dukungan {
+  background-color: #bc2877;
+  color: #ffffff;
+}
+
+.hero {
+  padding: 50px 0;
+  text-align: center;
+}
+.contact-form {
+  margin-top: 30px;
+}
+
+#copyright {
+  background-color: #f2f0f0;
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+}
+
+
